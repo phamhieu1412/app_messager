@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1013090326419",
+    "firebase_url": "https://rnmessagerapp.firebaseio.com",
+    "project_id": "rnmessagerapp",
+    "storage_bucket": "rnmessagerapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013090326419:android:a8d56cb61ec2b2e9d93a66",
+        "android_client_info": {
+          "package_name": "com.crushapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013090326419-jfd51h6c0hkom7s6b9hq3fikap6md5qh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crushapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1013090326419-e8b5dugbhdnh4t3fh312lkkjtnkmngsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVziyKrIHKGe9BNgV5bEqx4PBOxaMJc4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013090326419-e8b5dugbhdnh4t3fh312lkkjtnkmngsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
