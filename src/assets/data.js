@@ -4,13 +4,29 @@ export default data = [
     name: 'crush_1',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGko1wakH5TcDYzZkd7WaE6_4WfgxkjMMLUg&usqp=CAU',
-    description: 'xinh xinh qua!',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
+    description: 'xinh xinh qua! xinh xinh qua! xinh xinh qua! xinh xinh qua!xinh xinh qua!xinh xinh qua!xinh xinh qua!xinh xinh qua! xinh xinh qua! xinh xinh qua!vxinh xinh qua!',
   },
   {
     id: 2,
     name: 'crush_2',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_twOpuZjbRZi3mBmYx1F4hvLfP3kKP9f21A&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -18,6 +34,14 @@ export default data = [
     name: 'crush_3',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTk_noDI15mZbRHxcQPtZMZfTkRRRewuKsMhw&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -25,6 +49,14 @@ export default data = [
     name: 'crush_4',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4WfDH6g0_i7LuCGyMyceBpZJZ61QJPktr5w&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -32,6 +64,14 @@ export default data = [
     name: 'crush_5',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQEUb_88yJc66gayK3KuYMB6QaJe5BWBSYdkw&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -39,6 +79,14 @@ export default data = [
     name: 'crush_6',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTv7acZgFCs2BfkTkXBWvkqdRCsAAbfciykBg&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -46,6 +94,14 @@ export default data = [
     name: 'crush_7',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS2NBZKRoYSVcCzkncPRcWJV5L6J0ypXbqofg&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -53,6 +109,14 @@ export default data = [
     name: 'crush_8',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6OjCMG_i4x1PySrxXDmzggMrMyBrmUeWeqA&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -60,6 +124,14 @@ export default data = [
     name: 'crush_9',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqnDZ99xd9wiH6SG11a-mFGYErQv5WUzslHg&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -67,6 +139,14 @@ export default data = [
     name: 'crush_10',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTIbXUVOeEzdEm9XuJqGrVwrsBeVJqEFoUXw&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -74,6 +154,14 @@ export default data = [
     name: 'crush_11',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGko1wakH5TcDYzZkd7WaE6_4WfgxkjMMLUg&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -81,6 +169,14 @@ export default data = [
     name: 'crush_12',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_twOpuZjbRZi3mBmYx1F4hvLfP3kKP9f21A&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -88,6 +184,14 @@ export default data = [
     name: 'crush_13',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTk_noDI15mZbRHxcQPtZMZfTkRRRewuKsMhw&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -95,6 +199,14 @@ export default data = [
     name: 'crush_14',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4WfDH6g0_i7LuCGyMyceBpZJZ61QJPktr5w&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -102,6 +214,14 @@ export default data = [
     name: 'crush_15',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQEUb_88yJc66gayK3KuYMB6QaJe5BWBSYdkw&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -109,6 +229,14 @@ export default data = [
     name: 'crush_16',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTv7acZgFCs2BfkTkXBWvkqdRCsAAbfciykBg&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -116,6 +244,14 @@ export default data = [
     name: 'crush_17',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS2NBZKRoYSVcCzkncPRcWJV5L6J0ypXbqofg&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -123,6 +259,14 @@ export default data = [
     name: 'crush_18',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6OjCMG_i4x1PySrxXDmzggMrMyBrmUeWeqA&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -130,6 +274,14 @@ export default data = [
     name: 'crush_19',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqnDZ99xd9wiH6SG11a-mFGYErQv5WUzslHg&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
   {
@@ -137,6 +289,14 @@ export default data = [
     name: 'crush_20',
     avatar:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTTIbXUVOeEzdEm9XuJqGrVwrsBeVJqEFoUXw&usqp=CAU',
+    age: 18,
+    phone: '0945123432',
+    address: 'Hà nội',
+    interests: [
+      { id: 1, name: 'Nấu ăn'},
+      { id: 2, name: 'Xem phim'},
+      { id: 3, name: 'Game'}
+    ],
     description: 'xinh xinh qua!',
   },
 ];

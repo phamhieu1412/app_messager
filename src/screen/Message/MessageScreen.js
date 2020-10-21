@@ -50,6 +50,7 @@ class Home extends Component {
 
   render() {
     const {infoCrs, visiableModalEdit} = this.state;
+    const {navigation} = this.props;
 
     return (
       <Root>
@@ -78,7 +79,7 @@ class Home extends Component {
             ref={'flatListCrush'}
             data={data}
             renderItem={({item}) => (
-              <Item item={item} refreshFlatList={this.refreshFlatList} onEditCrush={this.onEditCrush} />
+              <Item item={item} refreshFlatList={this.refreshFlatList} onEditCrush={this.onEditCrush} navigation={navigation} />
             )}
             keyExtractor={(item) => item.id.toString()}
             parentFlatList={this}

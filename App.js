@@ -9,15 +9,20 @@ import MessageScreen from './src/screen/Message/MessageScreen';
 import LoginScreen from './src/screen/Login/Login';
 import RegisterScreen from './src/screen/Login/Register';
 
+import CrushDetail from './src/screen/CrushDetail';
+
 import Dots from './src/screen/Account/components/ThreeDots';
 import AccountScreen from './src/screen/Account/AccountScreen';
 import DescriptionUserScreen from './src/screen/Account/DescriptionUserScreen';
 import EditNoti from './src/screen/Account/components/EditNoti';
 import AddNoti from './src/screen/Account/components/AddNoti';
 import FanScreen from './src/screen/Account/FanScreen';
+
+import AnimatedScreen from './src/screen/Animated';
 // import SoundScreen from './src/screen/Account/SoundScreen';
 
 import Colors from './src/utils/Colors';
+import IconTab from './src/components/IconBottomTabs';
 
 export const Stack = createStackNavigator();
 
@@ -29,7 +34,18 @@ const HomeStack = createStackNavigator();
 const AccountStack = createStackNavigator();
 const LoginStack = createStackNavigator();
 
-function HomeStackScreen() {
+function HomeStackScreen({navigation, route}) {
+  if (route.state && route.state.routes) {
+    for (let i = 0; i < route.state.routes.length; i++) {
+      if (route.state.routes[i].name === "CrushDetail") {
+        navigation.setOptions({tabBarVisible: false})
+      }
+      else {
+        navigation.setOptions({tabBarVisible: true})
+      }
+    }
+  }
+
   return (
     <HomeStack.Navigator>
       <HomeStack.Screen
@@ -42,6 +58,10 @@ function HomeStackScreen() {
       <HomeStack.Screen
         name="DescriptionUser"
         component={DescriptionUserScreen}
+      />
+      <HomeStack.Screen
+        name="CrushDetail"
+        component={CrushDetail}
       />
     </HomeStack.Navigator>
   );
@@ -153,7 +173,7 @@ class AfterLoginStack extends React.Component {
     return (
       <TabMenu.Navigator
         tabBarOptions={{
-          activeTintColor: Colors.greenMain,
+          activeTintColor: Colors.redMain,
           inactiveTintColor: Colors.blackMain,
         }}>
         <TabMenu.Screen
@@ -163,15 +183,9 @@ class AfterLoginStack extends React.Component {
             tabBarLabel: 'Trang chủ',
             tabBarIcon: ({focused, horizontal, tintColor}) =>
               focused === false ? (
-                <Image
-                  source={require('./src/assets/images/bottomTabBarIcon/home.png')}
-                  style={{height: 30, width: 30}}
-                />
+                <IconTab icon="home-outline" categoryIcon="Ionicons" />
               ) : (
-                <Image
-                  source={require('./src/assets/images/bottomTabBarIcon/home_focused.png')}
-                  style={{height: 30, width: 30}}
-                />
+                <IconTab icon="home" color={Colors.redMain} categoryIcon="Ionicons" />
               ),
           }}
         />
@@ -182,15 +196,22 @@ class AfterLoginStack extends React.Component {
             tabBarLabel: 'Tài khoản',
             tabBarIcon: ({focused, horizontal, tintColor}) =>
               focused === false ? (
-                <Image
-                  source={require('./src/assets/images/bottomTabBarIcon/account.png')}
-                  style={{height: 30, width: 30}}
-                />
+                <IconTab icon="account-outline" categoryIcon="MaterialCommunityIcons" />
               ) : (
-                <Image
-                  source={require('./src/assets/images/bottomTabBarIcon/account_focused.png')}
-                  style={{height: 30, width: 30}}
-                />
+                <IconTab icon="account" color={Colors.redMain} categoryIcon="MaterialCommunityIcons" />
+              ),
+          }}
+        />
+        <TabMenu.Screen
+          name="Animated"
+          component={AnimatedScreen}
+          options={{
+            tabBarLabel: 'Hiệu ứng',
+            tabBarIcon: ({focused, horizontal, tintColor}) =>
+              focused === false ? (
+                <IconTab icon="animation-play-outline" categoryIcon="MaterialCommunityIcons" />
+              ) : (
+                <IconTab icon="animation-play-outline" color={Colors.redMain} categoryIcon="MaterialCommunityIcons" />
               ),
           }}
         />

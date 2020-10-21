@@ -31,7 +31,7 @@ class Item extends Component {
     }
   };
   render() {
-    const {item} = this.props;
+    const {item, navigation} = this.props;
     const swipeSettings = {
       autoClose: true,
       onOpen: this.onOpen,
@@ -121,7 +121,7 @@ class Item extends Component {
 
     return (
       <Swipeout {...swipeSettings} backgroundColor="white">
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate('CrushDetail', { item })}>
           <View style={styles.container}>
             <View style={styles.bgAvatar}>
               <Image source={{uri: item.avatar}} style={styles.avatar} />
